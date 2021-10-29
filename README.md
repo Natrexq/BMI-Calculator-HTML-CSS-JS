@@ -7,7 +7,7 @@ The calculator consists in calculating "BMI" (Body Mass Index) and telling the u
 # Updates
 I will inform about new updates in the updates.txt
 # Photo
-
+![img1](https://github.com/Natrexq/BMI-Calculator-HTML-CSS-JS/blob/main/rdm/img1.png?raw=true)
 # Download
 If you want, you can modify repository and
 use my code In your website.
