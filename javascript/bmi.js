@@ -17,7 +17,7 @@ function CalBmi(){
     
     var usheight,uswidth,finwidth,finalresult;
 
-    
+
     var usheight = dc.getElementById('bdheiID').value; 
 
     var uswidth = dc.getElementById('bdweiID').value;
@@ -67,7 +67,7 @@ function CalBmi(){
                                     }
                                     else{
                                         if(finalresult > 18){
-                                            dc.getElementById('bmitipsP').innerHTML = "Valid value";
+                                            dc.getElementById('bmitipsP').innerHTML = "Correct weight";
                                         }
                                             else{
                                                 if(finalresult > 16){
