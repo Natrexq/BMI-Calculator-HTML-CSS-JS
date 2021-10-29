@@ -18,34 +18,35 @@ function CalBmi(){
     var usheight,uswidth,finwidth,finalresult;
 
     
+    var usheight = dc.getElementById('bdheiID').value; 
 
     var uswidth = dc.getElementById('bdweiID').value;
 
-    var usheight = dc.getElementById('bdheiID').value;
+   
 
-    finwidth = uswidth * uswidth ;
+    finwidth = usheight * usheight ;
 
    
 
-    finalresult = usheight / finwidth;
+    finalresult = uswidth / finwidth;
 
     
     
     
     
-    if(uswidth == ""){
+    if(usheight == ""){
         alert("Please write your width");
     }
     else{
-        if(uswidth > 2.50){
+        if(usheight > 2.50){
             alert("Please write valid width value" + " Good format is => Meters + . + centimeters ");
         }
         else{
-            if(usheight == ""){
+            if(uswidth == ""){
                 alert("Please write your heigh");
             }
             else{
-                if(usheight > 500){
+                if(uswidth > 500){
                     alert("Please write height valid value");
                 }
                 else{
