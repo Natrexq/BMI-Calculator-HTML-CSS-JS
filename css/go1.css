@@ -25,7 +25,7 @@
         font-weight: normal ;
     }
     h1.gdtxt{
-
+        padding-top: 0.5em;
         font-family: 'Syne', sans-serif;
         color: black;
         font-weight: normal;
@@ -71,11 +71,7 @@ div.gdgo{
    
 }   
 
-    div.dvcal{
-        display: flex;
-        justify-content: space-around;
-        
-    }
+  
     div.txt{
         
         margin: auto;
@@ -88,29 +84,28 @@ div.gdgo{
         -ms-border-radius: 0px 0px 4em 4em;
         -o-border-radius: 0px 0px 4em 4em;
 }
+    div.dvcal{
+         display: flex;
+         justify-content: space-around;
+    
+}
+
     div.dvput{
-        width: 40em;
-        height: 4em;
+        margin-top: 5em;
+        width: 35em;
+        margin-left: 5em;
+        height: 25em;
         background-color: #6acb4a;
+    }
+    div.dvfinal{
+        margin-top: 10em;
+        width: 40em;
+        height: 20em;
+        background-color: #cbcb4a;
     }
 
 
 
-div.gdusdata{
-    width: 30%;
-    float: left;
-    margin-left: 5%;
-    height: 60%;
-    background-color: blanchedalmond;
-}
-div.gdusfinal{
-    float: right;
-    width: 35%;
-    height: 70%;
-    margin-right: 10%;
-    margin-top: 3%;
-    background-color: rgb(157, 221, 206);
-}
 
 
 div.gdfooter{
@@ -130,48 +125,7 @@ h1.gdmeeeD{
     font-family: 'Manrope', sans-serif;
     font-size: 100%;
 }
-div.accookiesbc{
-    position: absolute;
-    width: 99%;
-    height: 100%;
-    margin: auto;
-    
-    -webkit-backdrop-filter: blur(2px);
-    backdrop-filter: blur(3px);
-    
 
-}
-div.accookies{
-    width: 50%;
-    margin-top: 12%;
-    margin-left: 25%;   
-    
-    border: 2px solid none;
-    border-radius: 20px;
-    height: 45%;
-    background-color: rgb(156, 156, 156);
-    box-shadow: 2px 2px 2px black;
-    
-}
-div.actop{
-    width: 100%;
-    height: 5%;
-    background-color: rgb(36, 36, 36);
-    float: top;
-    border-bottom-left-radius:8px ;
-    border-bottom-right-radius:8px ;
-    border-top-left-radius:8px ;
-    border-top-right-radius:8px ;
-    border-bottom: 7.5px solid rgb(61, 61, 61);
-}
-div.butns{
-    width: 100%;
-    border: 2px solid none;
-    border-radius: 20px;
-    height: 55%;
-    float: left;
-    background-color: rgb(180, 180, 180);
-}
 button.bmibut{
 
     width:45% ;
@@ -204,6 +158,26 @@ button.cokbut{
     background-color: white;
     height: 25%;
 }
+span.spinfo{
+    opacity: 80%;
+    position: fixed; right: 0;
+    width: 6em;
+    height: 1.2em;
+    background-color: #828282;
+}
+h3.sph3{
+    color: #000000;
+    text-align: center;
+    font-weight: normal;
+    font-size: 90%;
+    padding-top: 0.5%;
+}
 
+@media (max-width: 480px) and (min-width: 420px) {
+    
+    body{
+        background-color: #000000;
+    }
 
+}
 
