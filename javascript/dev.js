@@ -12,7 +12,6 @@ function DevCheckDisplay(){
     scwid = window.screen.width;
     
 
-    alert(scwid);
 
     phone = 310;
     tablet = 520;
