@@ -4,34 +4,98 @@
 
 
 
-.body{
-background-color: white;
-}
+
 
 /* TEXT*/
+*{
+    margin: 0;
+    padding: 0;
+}
+    h1.gdblack{
+        
+        
+        font-family: 'Nunito', sans-serif;
+        color: #000000;
+        margin-top: 1%;
+        margin-left: 1em;
+        font-size: 160%;
+    }
+    h1.gdblacksm{
+        color: black;
+        font-weight: normal ;
+    }
+    h1.gdtxt{
+
+        font-family: 'Syne', sans-serif;
+        color: black;
+        font-weight: normal;
+        text-align: center;
+    }
+
 
 /* FOR BMI CALCULATOR*/
 
-div.wbbmi{
-    float: left;
-    width: 100%;
-    background-color: rgb(180, 180, 180);
-    height: 740px;
+
+*.xaa{
+    border: 2px solid red;
+
 }
+body{
+    margin: 0;
+    background-color: #F1FAEE;
+    height: 88em;
+}
+
+
 div.gdintro{
+    display: flex;
+    justify-content: left;
     float: left;
     width: 100%;
     text-align: center;
-    height: 14%;
-    background-color: rgb(236, 236, 236);
+    height: 4em;
+    background-color: #457B9D;
 }
 div.gdmed{
     float: left;
     width: 100%;
     text-align: center;
-    height: 78%;
-    background-color: rgb(243, 243, 243);
+    height: 42em;
+    background-color: #F1FAEE;
 }
+div.gdgo{
+    float: left;
+    width: 100%;
+    height: 40em;
+    background-color: #35452f;
+   
+}   
+
+    div.dvcal{
+        display: flex;
+        justify-content: space-around;
+        
+    }
+    div.txt{
+        
+        margin: auto;
+        width: 50%;
+        border-radius: 0px 0px 4em 4em;
+        height: 5em;
+        background-color: #017953;
+        -webkit-border-radius: 0px 0px 4em 4em;
+        -moz-border-radius: 0px 0px 4em 4em;
+        -ms-border-radius: 0px 0px 4em 4em;
+        -o-border-radius: 0px 0px 4em 4em;
+}
+    div.dvput{
+        width: 40em;
+        height: 4em;
+        background-color: #6acb4a;
+    }
+
+
+
 div.gdusdata{
     width: 30%;
     float: left;
@@ -47,14 +111,24 @@ div.gdusfinal{
     margin-top: 3%;
     background-color: rgb(157, 221, 206);
 }
+
+
 div.gdfooter{
     width: 100%;
-    height: 10%;
+    height: 3em;
     font-size: 80%;
     float: left;
-    text-align: center;
+ 
     color: white;
-    background-color: rgb(146, 146, 146);
+    background-color: rgb(26, 28, 29);
+}
+h1.gdmeeeD{
+    margin-left: 1em;
+    color: rgb(238, 255, 0);
+    float: left;
+    font-weight: bold;
+    font-family: 'Manrope', sans-serif;
+    font-size: 100%;
 }
 div.accookiesbc{
     position: absolute;
