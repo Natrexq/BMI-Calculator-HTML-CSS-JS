@@ -1,7 +1,7 @@
 ![img1](https://github.com/Natrexq/BMI-Calculator-HTML-CSS-JS/blob/main/rdm/img1.png?raw=true)
 
 # Warning!! The project has not been completed, Currently work are in progress
-  /2022-04-24
+  Last Update: [2022-04-24]
 # BMI-Calculator
 Hello, "BMI-Calculator-HTML-CSS-JS" is my first  public repository!
 
