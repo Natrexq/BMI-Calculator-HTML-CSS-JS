@@ -2,10 +2,10 @@
 
 function DevCheckDisplay(){
 
-    var main,phone,tablet,desktop,tv,display,final;
+    var main,phone,tablet,smalldesktop,desktop,tv,display,final;
 
-    final = document.getElementById('spi').value;
-
+    final = document.getElementById('spi');
+    
 
     
 
@@ -14,30 +14,36 @@ function DevCheckDisplay(){
 
     alert(scwid);
 
-    phone = 320;
-    tablet = 768;
+    phone = 310;
+    tablet = 520;
+    smalldesktop = 768;
     desktop = 992;
     tv = 1200;
 
 
     
     if(scwid > tv){
-        alert("TV");
+        final.innerHTML = "screen: large";
         
     }
+    
     else if(scwid > desktop){
         
-        alert("DES");
+        final.innerHTML = "screen: small";
     }
 
+    else if(scwid > smalldesktop){
+        
+        final.innerHTML = "screen: smdesk";
+    }
     else if(scwid > tablet){
         
-        alert("TAB");
+        final.innerHTML = "screen: tablet";
     }
    
     else if(scwid > phone){
         
-        alert("PHO");
+        final.innerHTML = "screen: phone";
     }
    
     
