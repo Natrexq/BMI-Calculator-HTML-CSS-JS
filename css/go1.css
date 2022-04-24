@@ -15,7 +15,7 @@
         
         
         font-family: 'Nunito', sans-serif;
-        color: #000000;
+        color: white;
         margin-top: 1%;
         margin-left: 1em;
         font-size: 160%;
@@ -25,11 +25,17 @@
         font-weight: normal ;
     }
     h1.gdtxt{
-        padding-top: 0.5em;
+        padding-top: 0em;
         font-family: 'Syne', sans-serif;
         color: black;
         font-weight: normal;
         text-align: center;
+    }
+    h1.ques{
+        font-family: 'Syne', sans-serif;
+        color: white;
+        text-align: center;
+        font-weight: bold;
     }
 
 
@@ -54,7 +60,7 @@ div.gdintro{
     width: 100%;
     text-align: center;
     height: 4em;
-    background-color: #457B9D;
+    background-color: #006475;
 }
 div.gdmed{
     float: left;
@@ -62,23 +68,45 @@ div.gdmed{
     text-align: center;
     height: 42em;
     background-color: #F1FAEE;
+    display: flex;
+    justify-content: space-around;
 }
+        div.wibmi{
+            float: left;
+            border-radius: 4em 0.5em 4em 0.5em;
+            width: 40em;
+            margin-top: 10em;
+            height: 25em;
+            background-color: #F57D6C;
+            box-shadow: 0.1px 0.1px 5px rgb(96, 96, 96);
+            -webkit-border-radius: 4em 0.5em 4em 0.5em;
+            -moz-border-radius: 4em 0.5em 4em 0.5em;
+            -ms-border-radius: 4em 0.5em 4em 0.5em;
+            -o-border-radius: 4em 0.5em 4em 0.5em;
+}
+        div.about{
+            width: 20em;
+            margin-top: 8em;
+            height: 25em;
+            box-shadow:0.5px 1px 3px rgb(96, 96, 96);
+            background-color: #F6F5C7;
+        }
+
 div.gdgo{
     float: left;
     width: 100%;
     height: 40em;
-    background-color: #35452f;
+    background-color: #0D353F;
    
 }   
 
   
     div.txt{
-        
         margin: auto;
         width: 50%;
         border-radius: 0px 0px 4em 4em;
         height: 5em;
-        background-color: #017953;
+        background-color: #F1FAEE;
         -webkit-border-radius: 0px 0px 4em 4em;
         -moz-border-radius: 0px 0px 4em 4em;
         -ms-border-radius: 0px 0px 4em 4em;
@@ -95,13 +123,13 @@ div.gdgo{
         width: 35em;
         margin-left: 5em;
         height: 25em;
-        background-color: #6acb4a;
+        background-color: #5cb040;
     }
     div.dvfinal{
         margin-top: 10em;
         width: 40em;
         height: 20em;
-        background-color: #cbcb4a;
+        background-color: #b1b140;
     }
 
 
