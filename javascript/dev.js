@@ -1,5 +1,12 @@
 //DEV TOOL
 
+
+
+
+
+
+
+
 function DevCheckDisplay(){
 
     var main,phone,tablet,smalldesktop,desktop,tv,display,final;
