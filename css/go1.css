@@ -16,7 +16,7 @@
         
         font-family: 'Nunito', sans-serif;
         color: white;
-        margin-top: 1%;
+        margin-top: 0.5em;
         margin-left: 1em;
         font-size: 160%;
     }
@@ -28,6 +28,7 @@
         padding-top: 0em;
         font-family: 'Syne', sans-serif;
         color: black;
+        
         font-weight: normal;
         text-align: center;
     }
@@ -104,6 +105,7 @@ div.gdgo{
     div.txt{
         margin: auto;
         width: 50%;
+        min-width: 16em;
         border-radius: 0px 0px 4em 4em;
         height: 5em;
         background-color: #F1FAEE;
@@ -148,6 +150,7 @@ div.gdfooter{
 h1.gdmeeeD{
     margin-left: 1em;
     color: rgb(238, 255, 0);
+    margin-top: 1em;
     float: left;
     font-weight: bold;
     font-family: 'Manrope', sans-serif;
